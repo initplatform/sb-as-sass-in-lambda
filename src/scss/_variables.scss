@@ -1,0 +1,27 @@
+// * * * * * * * * * * * * * * * *
+// * * Import color variables  * *
+// * * * * * * * * * * * * * * * *
+
+@import './variables/colors.scss';
+
+// * * * * * * * * * * * * * * * * * * *
+// * * Import custom color variables * *
+// * * * * * * * * * * * * * * * * * * *
+
+// Add color overrides in this file, or replace this file with a file exported from the customizer
+@import './variables-colors-overrides.scss';
+@import 'as-sass-in-color-overrides.scss';
+
+// * * * * * * * * * * * * * * * *
+// * * Import global variables * *
+// * * * * * * * * * * * * * * * *
+
+// Divide these out later
+@import './variables/spacing.scss';
+@import './variables/all.scss';
+
+// * * * * * * * * * * * * * * * * * *
+// * * Import component variables  * *
+// * * * * * * * * * * * * * * * * * *
+
+@import './variables/navigation.scss';

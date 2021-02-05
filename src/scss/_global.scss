@@ -1,0 +1,41 @@
+// Global styling for this template
+
+html,
+body {
+    height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: inherit;
+}
+
+:target:before {
+    content: '';
+    display: block;
+    height: 140px;
+    margin: -140px 0 0;
+}
+
+// Awaiting Safari and iOS Safai support
+// :target {
+//     scroll-margin-top: 140px;
+// }
+
+// DEMO ONLY
+
+.btn-example {
+    .btn {
+        margin: .25rem .125rem;
+    }
+}
+
+.card-demo-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid $border-color;
+    background-color: $gray-100;
+    padding: 1rem;
+
+    @media (min-width: 586px) {
+        padding: 5rem;
+    }
+}

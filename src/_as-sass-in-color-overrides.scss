@@ -1,0 +1,18 @@
+// This needs to be referenced externally in order to be able to ovevrride it with the importer function
+//
+// Be sure to include this file in:
+// 
+//     src/scss/_variables.scss
+//     right after @import './variables-colors-overrides.scss';
+// 
+//     @import 'as-sass-in-color-overrides.scss';
+//
+// This file is copied to dist/overrides on build.
+
+// #6200ea
+// $primary: #0061f2;
+// $secondary: #6900c7;
+// $success: #00ac69;
+// $danger: #e81500;
+// $warning: #f4a100;
+// $info: #00cfd5;

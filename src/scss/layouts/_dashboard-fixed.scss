@@ -1,0 +1,28 @@
+.nav-fixed {
+    .top-app-bar {
+        @extend .fixed-top;
+        z-index: $zindex-topnav;
+    }
+
+    #layoutDrawer {
+        #layoutDrawer_nav {
+            @extend .fixed-top;
+            width: $drawer-base-width;
+            height: 100vh;
+            z-index: $zindex-drawer;
+
+            .drawer {
+                padding-top: $app-bar-base-height;
+
+                .drawer-menu {
+                    overflow-y: auto;
+                }
+            }
+        }
+
+        #layoutDrawer_content {
+            padding-left: $drawer-base-width;
+            top: $app-bar-base-height;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+// Form control defaults to match material styling
+
+.form-control {
+    &:hover {
+        border-color: $black;
+    }
+
+    &:focus {
+        border-width: 2px;
+        border-color: $primary;
+        padding: add($input-padding-y, -1px) add($input-padding-x, -1px);
+    }
+
+    &[disabled] {
+        color: $input-disabled-color;
+        border-color: $input-disabled-border-color;
+    }
+}
+
+// Form control and input group sizing
+
+.form-control-sm,
+.input-group-lg .form-control {
+    &:focus {
+        padding: add($input-padding-y-sm, -1px) add($input-padding-x-sm, -1px) !important;
+    }
+}
+
+.form-control-lg,
+.input-group-lg .form-control {
+    &:focus {
+        padding: add($input-padding-y-lg, -1px) add($input-padding-x-lg, -1px) !important;
+    }
+}
+
+// Form control color picker
+
+.form-control-color {
+    &:focus {
+        padding-left: calc(0.40625rem - 1px);
+        padding-right: calc(0.40625rem - 1px);
+    }
+}

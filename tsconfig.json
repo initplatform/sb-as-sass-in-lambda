@@ -1,0 +1,36 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "downlevelIteration": true,
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "lib": ["es2018", "dom"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "paths": {
+            "@scripts/*": ["scripts/*"],
+            "@src/*": ["src/*"],
+            "@actions/*": ["src/project-actions/*"],
+            "@lib/*": ["src/lib/*"],
+            "@sb/*": ["start-bootstrap/*"]
+        },
+        "resolveJsonModule": true,
+        "rootDir": "./src",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2017",
+        "typeRoots": ["node_modules/@types", "src/typings"],
+        "types": ["express"]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": ["node_modules", "start-bootstrap", "dist", "build", "_templates", "migrations/**/*", "src/build-files/**/*"]
+}

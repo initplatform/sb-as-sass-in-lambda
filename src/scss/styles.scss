@@ -1,0 +1,59 @@
+// * * * * * * * * * * * * *
+// * * Import Variables  * *
+// * * * * * * * * * * * * *
+
+@import './variables';
+
+// * * * * * * * * * * * * *
+// * * Import Bootstrap  * *
+// * * * * * * * * * * * * *
+
+@import 'bootstrap/scss/bootstrap';
+
+// * * * * * * * * * * * * * * * * * * * * *
+// * * Import Material Component Styling * *
+// * * * * * * * * * * * * * * * * * * * * *
+
+@import '@material/ripple/styles';
+
+// * * * * * * * * * * * * * *
+// * * Import Custom SCSS  * *
+// * * * * * * * * * * * * * *
+
+// Import Custom SCSS
+@import './global';
+
+// Layout
+@import './layouts/authentication';
+@import './layouts/dashboard-default';
+@import './layouts/dashboard-fixed';
+@import './layouts/error';
+
+// Utilities
+@import './utilities/shadows';
+@import './utilities/ripple';
+@import './utilities/text';
+@import './utilities/transforms';
+
+// Forms
+@import './forms/range';
+@import './forms/form-inputs';
+
+// Components
+@import './components/buttons';
+@import './components/cards';
+@import './components/chips';
+@import './components/drawer';
+@import './components/icon-button';
+@import './components/modals';
+@import './components/stick';
+@import './components/tab-bar';
+@import './components/top-app-bar';
+
+// Content
+@import './content/tables';
+@import './content/typography';
+
+// Plugins
+@import './plugins/datatables';
+@import './plugins/prism';
